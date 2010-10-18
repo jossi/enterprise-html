@@ -433,4 +433,17 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'vocino',
+	message: 'Every single tag gets an ID or class, because <em>how else</em> would you style it?',
+	example: [
+	'<div id="news" class="newsdiv">',
+	'   <h2 class="newsdivheading">News</h2>',
+	'   <p class="newsparagraph">',
+	'      <em class="em">...</em>',
+	'   </p>',
+	'</div>'
+	]
+});
+
 module.exports = tips;
