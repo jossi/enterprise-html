@@ -1,51 +1,6 @@
 var tips = [];
 
 tips.push({
-	author: 'kentbrew',
-	message: 'Choosing just the right <em>meta</em> keywords',
-	example: [
-		'<!doctype html>',
-                '<html>',
-                '<head>',
-                '   <title>Enterprise HTML - Provides proven high performance, enterprise-level and scalable HTML tips and best practices.</title>',
-                '   <META NAME="KEYWORDS" CONTENT="enterprise,html,enterprise html,megan,fox,megan fox,megan fox naked,megan fox naked sexy,megan fox naked sexy striptease,megan fox naked sexy striptease sextape,megan fox naked sexy striptease sextape enterprise,megan fox naked sexy striptease sextape enterprise html">',
-                '</head>'
-	]
-})
-
-tips.push({
-	author: 'kentbrew',
-	message: 'Maximizing font size and density (especially for mobile devices) with nested <em>H1</em>, <em>H2</em>, and <em>B</em> tags',
-	example: [
-		'<h1><b>Chapter One</b></h1>',
-                '<h2><b>I am Nailed to the Hull</b></h2>'
-	]
-})
-
-tips.push({
-	author: 'kentbrew',
-	message: 'Formatting vertical whitespace with unclosed <em>P</em> tags',
-	example: [
-		'<img src="foo.jpg" />',
-                '<p>',
-		'<img src="bar.jpg" />',
-                '<p>'
-	]
-})
-
-tips.push({
-	author: 'kentbrew',
-	message: 'Saving bandwidth with unclosed <em>LI</em> tags',
-	example: [
-		'<ul>',
-                '   <li>cat',
-		'   <li>dog',
-                '   <li>elephant'
-                '</ul>'
-	]
-})
-
-tips.push({
 	author: 'bentruyman',
 	message: 'Using <em>Really</em> Long Explicit Ids',
 	example: [
@@ -178,6 +133,51 @@ tips.push({
 		'        </tr>',
 		'    </tbody>',
 		'</table>'
+	]
+});
+
+tips.push({
+	author: 'kentbrew',
+	message: 'Choosing just the right <em>meta</em> keywords',
+	example: [
+	'<!doctype html>',
+	'<html>',
+	'<head>',
+	'   <title>Enterprise HTML - Provides proven high performance, enterprise-level and scalable HTML tips and best practices.</title>',
+	'   <META NAME="KEYWORDS" CONTENT="enterprise,html,enterprise html,megan,fox,megan fox,megan fox naked,megan fox naked sexy,megan fox naked sexy striptease,megan fox naked sexy striptease sextape,megan fox naked sexy striptease sextape enterprise,megan fox naked sexy striptease sextape enterprise html">',
+	'</head>'
+	]
+});
+
+tips.push({
+	author: 'kentbrew',
+	message: 'Maximizing font size and density (especially for mobile devices) with nested <em>H1</em>, <em>H2</em>, and <em>B</em> tags',
+	example: [
+	'<h1><b>Chapter One</b></h1>',
+	'<h2><b>I am Nailed to the Hull</b></h2>'
+	]
+});
+
+tips.push({
+	author: 'kentbrew',
+	message: 'Formatting vertical whitespace with unclosed <em>P</em> tags',
+	example: [
+	'<img src="foo.jpg" />',
+	'<p>',
+	'<img src="bar.jpg" />',
+	'<p>'
+	]
+});
+
+tips.push({
+	author: 'kentbrew',
+	message: 'Saving bandwidth with unclosed <em>LI</em> tags',
+	example: [
+	'<ul>',
+	'   <li>cat',
+	'   <li>dog',
+	'   <li>elephant',
+	'</ul>'
 	]
 });
 
