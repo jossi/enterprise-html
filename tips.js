@@ -429,7 +429,7 @@ tips.push({
 	author: 'blakems',
 	message: 'Using <em>non-standard</em> HTML to layout a web page is ideal',
 	example: [
-		'<spacer width=180 height=30>',
+		'<spacer width=180 height=30>'
 	]
 });
 
