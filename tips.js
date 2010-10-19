@@ -484,4 +484,12 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'jossi',
+	message: 'Always adding ids to form elements, <em>regardless if you style them or not.</em>',
+	example: [
+		'<input name="myField" id="myField" type="text" />'
+	]
+});
+
 module.exports = tips;
