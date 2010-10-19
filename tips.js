@@ -446,4 +446,41 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'damncabbage',
+	message: 'Creating forms without the need for cumbersome <em>label elements</em>',
+	example: [
+		'<input type="radio" value="0" name="mf_unique">',
+		'<a onclick="document.forms.objeditform.mf_unique[0].click();" href="javascript:void(\'\')">No</a>',
+		'<input type="radio" value="1" name="mf_unique">',
+		'<a onclick="document.forms.objeditform.mf_unique[1].click();" href="javascript:void(\'\')">Yes</a>'
+	]
+});
+
+tips.push({
+	author: 'damncabbage',
+	message: 'Ignoring the <em>Standards Weenies</em> who complain about mixing inline and block elements at will',
+	example: [
+		'<p>',
+		'  <div class="about-us-staff">',
+		'    <div><img src="staff/sam.gif" /></div>',
+		'    <strong>Sam</strong><br />',
+		'    Evaluates cross-platform revenue generation markets for engaging dynamic deliverables.',
+		'    </div>',
+		'  </div>',
+		'</p>'
+	]
+});
+
+tips.push({
+	author: 'damncabbage',
+	message: 'Using jQuery to write <em>gracefully degrading</em> javascript that doesn\'t',
+	example: [
+		'<a href="#2087" class="cs-link">',
+		'	<img src="thumb.png" />',
+		'	<span><strong>Click Here</strong></span>',
+		'</a>'
+	]
+});
+
 module.exports = tips;
